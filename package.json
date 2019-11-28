@@ -1,0 +1,23 @@
+{
+  "name": "cs-event-manager",
+  "displayName": "Cordova Sites Event Manager",
+  "version": "0.0.1",
+  "description": "A Cordova JS/HTML/CSS-Framework similar to android (or at least i hope so).",
+  "main": "dist/shared.js",
+  "types": "dist/shared.d.ts",
+  "scripts": {
+    "install": "tsc",
+    "build": "node bin/build.js",
+    "update packages": "node bin/updateCopies.js"
+  },
+  "license": "MIT",
+  "peerDependencies": {
+    "js-helper": "git+https://github.com/Ainias/js-helper#0.2"
+  },
+  "devDependencies": {
+    "@types/node": "^12.12.14",
+    "js-helper": "git+https://github.com/Ainias/js-helper#0.2",
+    "typeorm": "^0.2.20",
+    "typescript": "^3.7.2"
+  }
+}
