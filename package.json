@@ -6,8 +6,7 @@
   "main": "dist/shared.js",
   "types": "dist/shared.d.ts",
   "scripts": {
-    "install": "tsc",
-    "build": "node bin/build.js",
+    "build": "node bin/build.js && tsc",
     "update packages": "node bin/updateCopies.js"
   },
   "license": "MIT",
