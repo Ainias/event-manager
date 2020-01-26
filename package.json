@@ -11,11 +11,11 @@
   },
   "license": "MIT",
   "peerDependencies": {
-    "js-helper": "git+https://github.com/Ainias/js-helper#0.2"
+    "js-helper": "git+https://github.com/Ainias/js-helper#0.3"
   },
   "devDependencies": {
     "@types/node": "^12.12.14",
-    "js-helper": "git+https://github.com/Ainias/js-helper#0.2",
+    "js-helper": "git+https://github.com/Ainias/js-helper#0.3",
     "typeorm": "^0.2.20",
     "typescript": "^3.7.2"
   }
