@@ -9,6 +9,7 @@ var __awaiter = (this && this.__awaiter) || function (thisArg, _arguments, P, ge
     });
 };
 Object.defineProperty(exports, "__esModule", { value: true });
+exports.EventManager = void 0;
 const js_helper_1 = require("js-helper");
 class EventManager {
     constructor() {
